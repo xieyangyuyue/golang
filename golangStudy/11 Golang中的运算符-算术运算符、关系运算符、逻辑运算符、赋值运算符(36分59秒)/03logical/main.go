@@ -59,17 +59,17 @@ func main() {
 		test...
 		执行
 	*/
-	// var a = 10
-	// if a > 11 || test() {
-	// 	fmt.Println("执行")
-	// }
+	var a = 10
+	if a > 11 || test() {
+		fmt.Println("执行")
+	}
 
 	/*
 		输出：执行
 	*/
-	var a = 10
-	if a < 11 || test() {
-		fmt.Println("执行")
-	}
+	// var a = 10
+	// if a < 11 || test() {
+	// 	fmt.Println("执行")
+	// }
 
 }

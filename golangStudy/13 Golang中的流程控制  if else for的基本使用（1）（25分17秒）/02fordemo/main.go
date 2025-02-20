@@ -1,5 +1,5 @@
 package main
-
+import "fmt"
 func main() {
 
 	/*
@@ -28,10 +28,10 @@ func main() {
 
 	// 2、打印1-10的所有数据    for 循环的初始语句可以被忽略，但是初始语句后的分号必须要写
 
-	// i := 1
-	// for ; i <= 10; i++ {
-	// 	fmt.Println(i)
-	// }
+	i := 1
+	for ; i <= 10; i++ {
+		fmt.Println(i)
+	}
 
 	/*
 		3、打印1-10的所有数据
