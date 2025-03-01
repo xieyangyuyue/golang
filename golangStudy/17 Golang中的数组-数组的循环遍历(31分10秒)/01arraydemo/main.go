@@ -13,12 +13,12 @@ func main() {
 
 	//2、数组的初始化 第一种方法
 
-	// var arr1 [3]int
+	var arr1 [3]int
 
-	// arr1[0] = 23
-	// arr1[1] = 10
-	// arr1[2] = 24
-	// fmt.Println(arr1)
+	arr1[0] = 23
+	arr1[1] = 10
+	arr1[2] = 24
+	fmt.Println(arr1)
 
 	// var strArr [3]string
 	// strArr[0] = "php"
@@ -78,10 +78,13 @@ func main() {
 	// 	fmt.Println(arr1[i])
 	// }
 
-	arr1 := [...]string{"php", "nodejs", "golnag", "js"}
+	// arr1 := [...]string{"php", "nodejs", "golnag", "js"}
 
-	for k, v := range arr1 {
-		fmt.Printf("key:%v value:%v\n", k, v)
-	}
+	// for k, v := range arr1 {
+	// 	fmt.Printf("key:%v value:%v\n", k, v)
+	// }
+	// for _, v := range arr1 {
+	// 	fmt.Printf(" value:%v\n", v)
+	// }
 
 }

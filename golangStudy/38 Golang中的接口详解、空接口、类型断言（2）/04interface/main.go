@@ -28,11 +28,11 @@ func main() {
 	// m1["age"] = "20"
 	// fmt.Println(m1)
 
-	// var m1 = make(map[string]interface{})
-	// m1["username"] = "张三"
-	// m1["age"] = 20
-	// m1["married"] = true
-	// fmt.Println(m1)
+	var m1 = make(map[string]interface{})
+	m1["username"] = "张三"
+	m1["age"] = 20
+	m1["married"] = true
+	fmt.Println(m1)
 
 	var s1 = []interface{}{1, 2, "你好", true} //[1 2 你好 true]
 	fmt.Println(s1)

@@ -17,7 +17,7 @@ import (
 
 func main() {
 	//1、打开文件
-	file, err := os.Open("C:/test.txt")
+	file, err := os.Open("../demo02/main.go")
 	defer file.Close()
 
 	if err != nil {

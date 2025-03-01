@@ -9,9 +9,9 @@ func main() {
 
 	var userinfo = make([]map[string]string, 2, 2)
 
-	// fmt.Println(userinfo[0]) //map[]   map不初始化的默认值nil
+	fmt.Println(userinfo[0]) //map[]   map不初始化的默认值nil
 
-	// fmt.Println(userinfo[0] == nil) //true
+	fmt.Println(userinfo[0] == nil) //true
 
 	if userinfo[0] == nil {
 		userinfo[0] = make(map[string]string)

@@ -9,7 +9,7 @@ import (
 // 在主线程中也每隔50毫输出"你好golang", 输出10次后，退出程序
 // 要求主线程和goroutine同时执行
 func test() {
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 1000; i++ {
 		fmt.Println("test() 你好golang")
 		time.Sleep(time.Millisecond * 100)
 	}
@@ -17,7 +17,7 @@ func test() {
 
 func main() {
 	go test() //表示开启一个协程
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 1000; i++ {
 		fmt.Println("main() 你好golang")
 		time.Sleep(time.Millisecond * 100)
 	}

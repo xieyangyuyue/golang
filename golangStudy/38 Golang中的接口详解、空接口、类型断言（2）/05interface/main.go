@@ -30,14 +30,14 @@ func MyPrint2(x interface{}) {
 
 //类型断言
 func main() {
-	// var a interface{}
-	// a = "你好golang"
-	// v, ok := a.(string)
-	// if ok {
-	// 	fmt.Println("a就是一个string类型,值是：", v)
-	// } else {
-	// 	fmt.Println("断言失败")
-	// }
+	var a interface{}
+	a = "你好golang"
+	v, ok := a.(string)
+	if ok {
+		fmt.Println("a就是一个string类型,值是：", v)
+	} else {
+		fmt.Println("断言失败")
+	}
 
 	// MyPrint1("你好golang")
 	// MyPrint1(true)

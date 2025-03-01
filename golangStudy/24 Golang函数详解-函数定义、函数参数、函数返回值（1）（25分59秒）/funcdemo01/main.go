@@ -44,8 +44,8 @@ func sumFn2(x int, y ...int) int {
 }
 
 func main() {
-	// sum1 := sumFn(12, 3)
-	// fmt.Println(sum1) //15
+	sum1 := sumFn(12, 3)
+	fmt.Println(sum1) //15
 
 	// sum2 := sumFn(15, 5)
 	// fmt.Println(sum2) //20
@@ -64,7 +64,7 @@ func main() {
 	// sum4 := sumFn1(1, 2, 3, 4, 5) //15
 	// fmt.Println(sum4)
 
-	sum5 := sumFn2(100, 1, 2, 3, 4)
-	fmt.Println(sum5)
+	// sum5 := sumFn2(100, 1, 2, 3, 4)
+	// fmt.Println(sum5)
 
 }

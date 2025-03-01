@@ -17,10 +17,9 @@ func main() {
 	*/
 
 	//new方法给指针变量分配存储空间
-	// var b *int
-	// b = new(int)
-	// *b = 100
-	// fmt.Println(*b) //	fmt.Println(*a)
+	var b= new(int)
+	*b = 100
+	fmt.Println(*b) //	fmt.Println(*a)
 
 	var f = new(bool)
 	fmt.Println(*f) //false

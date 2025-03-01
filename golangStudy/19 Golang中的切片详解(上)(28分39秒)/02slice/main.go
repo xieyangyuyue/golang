@@ -1,5 +1,5 @@
 package main
-
+import "fmt"
 func main() {
 
 	//切片的循环遍历
@@ -9,9 +9,9 @@ func main() {
 	// 	fmt.Println(strSlice[i])
 	// }
 
-	// var strSlice = []string{"php", "java", "nodejs", "golang"}
-	// for k, v := range strSlice {
-	// 	fmt.Println(k, v)
-	// }
+	var strSlice = []string{"php", "java", "nodejs", "golang"}
+	for k, v := range strSlice {
+		fmt.Println(k, v)
+	}
 
 }

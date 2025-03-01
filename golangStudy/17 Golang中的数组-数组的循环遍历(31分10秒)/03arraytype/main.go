@@ -10,10 +10,10 @@ func main() {
 	*/
 
 	//值类型:基本数据类型 和 数组都是值类型
-	// var a = 10
-	// b := a
-	// a = 20
-	// fmt.Println(a, b)
+	var a = 10
+	b := a
+	a = 20
+	fmt.Println(a, b)
 
 	// var arr1 = [...]int{1, 2, 3}
 	// arr2 := arr1

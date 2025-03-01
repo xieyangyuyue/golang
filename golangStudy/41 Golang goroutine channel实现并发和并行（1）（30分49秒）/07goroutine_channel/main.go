@@ -15,7 +15,6 @@ func main() {
 	//3、获取管道里面的内容
 	a := <-ch
 	fmt.Println(a) //10
-
 	<-ch //从管道里面取值   //21
 	c := <-ch
 	fmt.Println(c) //32
