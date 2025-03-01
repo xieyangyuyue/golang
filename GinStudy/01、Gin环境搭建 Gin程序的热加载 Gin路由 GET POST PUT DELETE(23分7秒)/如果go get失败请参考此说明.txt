@@ -1,0 +1,3 @@
+如果go get失败请参考：
+
+http://bbs.itying.com/topic/5ed08edee7c0790f8475e276
